@@ -111,3 +111,7 @@ A cobertura ajuda a localizar caminhos sem exercício; não é garantia de corre
 ## Autoria e licença
 
 MIT para o código produzido neste repositório. Dependências mantêm suas próprias licenças. Consulte [LICENSE](LICENSE), [AI_ASSISTANCE.md](AI_ASSISTANCE.md) e [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Verificação remota da revisão publicada
+
+A [execução de CI](https://github.com/Dritcmg/partner-catalog-api/actions/runs/40730629787) aprovou **54 testes, sem falhas ou skips**, além de lint e auditoria de dependências. O escopo usa SQLite real e HTTP local. O artefato remoto foi baixado e seu fingerprint conferido com a fonte local. Consulte [evidence/ci-verification.json](evidence/ci-verification.json) para a revisão exata e o resultado; o relatório local inicial tem escopo próprio.

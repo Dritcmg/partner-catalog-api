@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "project": "partner-catalog-api",
+  "tested_source_commit": "10187d654df1d1b7c1858bca8a95af7ac48a0ad1",
+  "ci_url": "https://github.com/Dritcmg/partner-catalog-api/actions/runs/40730629787",
+  "tests": 54,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "postgres_verified": false,
+  "source_fingerprint_matches_local": true,
+  "source_fingerprint": "6667b380e5cf2028d02a1504d064c82765e3cd02c86578a37354aff25044d084",
+  "dependency_audit": "PASSED",
+  "recorded_at": "2026-10-28T16:55:42.764484+00:00",
+  "scope": "Synthetic-data portfolio; AI assistance declared. CI artifact downloaded and inspected."
+}
