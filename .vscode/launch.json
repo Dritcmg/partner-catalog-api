@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Partner Catalog API local",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["partner_catalog.main:create_app", "--factory", "--host", "127.0.0.1", "--port", "8011"],
+      "envFile": "${workspaceFolder}/.env",
+      "justMyCode": true
+    }
+  ]
+}

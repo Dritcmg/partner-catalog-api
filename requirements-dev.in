@@ -1,0 +1,6 @@
+-r requirements.in
+httpx2>=2,<3
+pytest>=8,<10
+pytest-cov>=6,<8
+ruff>=0.12,<1
+pip-audit>=2.8,<3

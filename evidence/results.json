@@ -1,0 +1,53 @@
+{
+  "project": "partner-catalog-api",
+  "status": "PASSED",
+  "generated_at": "2026-10-28T16:47:49.738025+00:00",
+  "python_version": "3.12.8",
+  "source_fingerprint_sha256": "6667b380e5cf2028d02a1504d064c82765e3cd02c86578a37354aff25044d084",
+  "checks": {
+    "lint": {
+      "command": "python -m ruff check .",
+      "exit_code": 0
+    },
+    "format": {
+      "command": "python -m ruff format --check .",
+      "exit_code": 0
+    },
+    "tests": {
+      "command": "python -m pytest -q --junitxml=artifacts/junit.xml --cov=partner_catalog --cov-report=json:artifacts/coverage.json --cov-report=term-missing",
+      "exit_code": 0
+    },
+    "dependency_audit": {
+      "command": "python -m pip_audit -r requirements-dev.txt --format=json --output=artifacts/audit.json",
+      "exit_code": 0
+    }
+  },
+  "tests": {
+    "tests": 54,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "coverage": {
+    "covered_lines": 174,
+    "num_statements": 174,
+    "percent_covered": 99.48979591836735,
+    "covered_branches": 21,
+    "num_branches": 22
+  },
+  "secret_signature_findings": [],
+  "versions": {
+    "fastapi": "0.162.0",
+    "pydantic": "2.14.1",
+    "SQLAlchemy": "2.1.6",
+    "pytest": "9.2.0",
+    "ruff": "0.17.3",
+    "pip-audit": "2.10.1"
+  },
+  "scope": "Synthetic-data API/SQLite integration tests; no production or company systems.",
+  "limitations": [
+    "No live deployment or load benchmark.",
+    "Single development API key, no identity provider or tenant authorization.",
+    "Secret patterns are a focused scan, not a universal guarantee."
+  ]
+}
